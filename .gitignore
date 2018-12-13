@@ -5,3 +5,5 @@ Screenshot*.png
 build
 
 yarn-error.log
+
+.idea
