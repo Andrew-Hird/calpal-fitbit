@@ -1,0 +1,25 @@
+{
+  "fitbit": {
+    "appUUID": "95b7f0f1-d6d0-4902-ae97-3dab000f0f4e",
+    "appType": "app",
+    "appDisplayName": "Cal Pal",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#f44336",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Cal Pal"
+      }
+    }
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~1.0.0",
+    "@fitbit/sdk-cli": "^1.0.0"
+  },
+  "scripts": {
+    "build": "fitbit-build"
+  }
+}

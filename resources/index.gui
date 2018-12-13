@@ -1,0 +1,53 @@
+<svg class="background">
+  <text id="input" x="1%" y="10%" width="50%" font-size="20" />
+  <text id="output" y="10%" x="99%" width="50%" />
+
+  <svg y="12%" height="50">
+    <use id="one" href="#square-button" x="0" width="33%" fill="fb-red" font-family="System-Regular" font-size="30">
+      <set href="#text" attributeName="text-buffer" to="1" />
+    </use>
+    <use id="two" href="#square-button" x="33%" width="34%" fill="fb-red" font-family="System-Regular" font-size="30">
+      <set href="#text" attributeName="text-buffer" to="2" />
+    </use>
+    <use id="three" href="#square-button" x="67%" width="33%" fill="fb-red" font-family="System-Regular" font-size="30">
+      <set href="#text" attributeName="text-buffer" to="3" />
+    </use>
+  </svg>
+  
+  <svg y="34%" height="50">
+    <use id="four" href="#square-button" x="0" width="33%" fill="fb-red" font-family="System-Regular" font-size="40">
+      <set href="#text" attributeName="text-buffer" to="4" />
+    </use>
+    <use id="five" href="#square-button" x="33%" width="34%" fill="fb-red" font-family="System-Regular" font-size="40">
+      <set href="#text" attributeName="text-buffer" to="5" />
+    </use>
+    <use id="six" href="#square-button" x="67%" width="33%" fill="fb-red" font-family="System-Regular" font-size="40">
+      <set href="#text" attributeName="text-buffer" to="6" />
+    </use>
+  </svg>
+  
+  <svg y="56%" height="50">
+    <use id="seven" href="#square-button" x="0" width="33%" fill="fb-red" font-family="System-Regular" font-size="40">
+      <set href="#text" attributeName="text-buffer" to="7" />
+    </use>
+    <use id="eight" href="#square-button" x="33%" width="34%" fill="fb-red" font-family="System-Regular" font-size="40">
+      <set href="#text" attributeName="text-buffer" to="8" />
+    </use>
+     <use id="nine" href="#square-button" x="67%" width="33%" fill="fb-red" font-family="System-Regular" font-size="40">
+       <set href="#text" attributeName="text-buffer" to="9" />
+     </use>
+  </svg>
+  
+  <svg y="78%" height="50">
+    <use id="clear" href="#square-button" x="0" width="33%" fill="fb-red" font-family="System-Regular" font-size="40">
+      <set href="#text" attributeName="text-buffer" to="x" />
+    </use>
+    <use id="zero" href="#square-button" x="33%" width="34%" fill="fb-red" font-family="System-Regular" font-size="40">
+      <set href="#text" attributeName="text-buffer" to="0" />
+    </use>
+    <use id="back" href="#square-button" x="67%" width="33%" fill="fb-red" font-family="System-Regular" font-size="40">
+      <set href="#text" attributeName="text-buffer" to="<-" />
+    </use>
+  </svg>
+ 
+</svg>

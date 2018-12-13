@@ -1,0 +1,7 @@
+node_modules
+
+Screenshot*.png
+
+build
+
+yarn-error.log
